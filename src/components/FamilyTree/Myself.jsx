@@ -1,11 +1,11 @@
 import React from 'react';
 import Spacial from './Spacial';
 
-const Myself = () => {
+const Myself = ({asset}) => {
   return (
     <div>
       <h3>MySelf</h3>
-      <Spacial />
+      <Spacial asset={asset}  />
     </div>
   );
 };
